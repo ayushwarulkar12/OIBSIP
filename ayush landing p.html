@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('C:/Users/Ayush/Downloads/red-4k-uhd-dragon-art-1ub4r39km2nlanfw.jpg'); /* Modified background image URL */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .container {
+            color: #ffffff;
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        .features-grid {
+            color: #ffffff;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }   
+
+        .feature {
+            color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            background-position: center;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .pricing-tier {
+            color: #ffffff;
+            flex-basis: calc(33.33% - 20px);
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gaming Hub</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <h2>Game 1 : explore the world of amazing games</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3> Gaming World 1</h3>
+        
+                    <p>Unlock Your Imagination with epic Games.</p>
+                </div>
+                <div class="feature">
+                    <h3> Gaming World 2</h3>
+                    <p>Do add less Gaming .</p>
+                </div>
+                <div class="feature">
+                    <h3> Gaming World 3</h3>
+                    <p>Online and offline Games.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Our Pricing</h2>
+            <div class="pricing-table">
+                <div class="pricing-tier">
+                    <h3>Basic Games</h3>
+                    <p>200rs/month</p>
+                    <ul>
+                        <li>Play both online and offline Games</li>
+                        <li>Only Mobile-Exclusive Games, Anytime, Anywhere!</li>
+                    </ul>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+                <div class="pricing-tier">
+                    <h3>Pro</h3>
+                    <p>300rs/month</p>
+                    <ul>
+                        <li>Games in HD: Experience the Vibrant !</li>
+                        <li>Play Endless games and have Entertainment!</li>
+                        <li>Ad-Free online games!</li>
+                    </ul>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+                <div class="pricing-tier">
+                    <h3>Premium</h3>
+                    <p>600rs/month</p>
+                    <ul>
+                        <li>Get new games at heavy discount!</li>
+                        <li>All combact games are unclocked!</li>
+                        <li>New released games early access!</li>
+                        <li>Unlock premium royal pass free</li>
+                    </ul>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+</body>
+</html>
